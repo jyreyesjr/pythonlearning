@@ -4,7 +4,19 @@ possible_choices = ['rock', 'paper' , 'scissors']
 
 computer_choice = random.choice(possible_choices)
 
-user_choice = input("rock, paper, or scissors?")
+#check if user choice is rock paper or scissors
+x = False
+while x == False:
+    user_choice = input("rock, paper, or scissors?")
+    if user_choice in possible_choices:
+        print("Great choice")
+        x = True
+    else:
+        print("Incorrect option, try again")
+        #break
+
+
+
 
 if user_choice == computer_choice:
     print("Tie")
