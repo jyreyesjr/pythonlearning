@@ -13,10 +13,6 @@ while x == False:
         x = True
     else:
         print("Incorrect option, try again")
-        #break
-
-
-
 
 if user_choice == computer_choice:
     print("Tie")
@@ -28,5 +24,3 @@ elif user_choice == "scissors" and computer_choice == "rock":
     print("computer wins")
 else:
     print("you win :P")
-
-#test
