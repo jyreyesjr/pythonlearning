@@ -20,5 +20,5 @@ description = json.get("weather")[0].get("description")
 current_temp = json.get("main").get("temp")
 
 print("Current Temperature in ", lat , " " , lon , " is:" , current_temp, "F")
-print("Forcast is", description)
+print("Forecast is", description)
 
